@@ -1,0 +1,77 @@
+.semaforo-contenedor{
+    display: grid;
+    align-items: center;
+    color: #0E2954;
+    width: 150px;
+    height: auto;
+    justify-content: space-between;
+    margin-top: 40%;
+}
+
+.semaforo-luces{
+    display: grid;
+    color: #01212e;
+    width: 150px;
+    height: 480px;
+    background-color:#022532;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.verde{
+    width: 150px;
+    height: 150px;
+    background-color: #00DFA2;
+    border-radius: 50%;   
+}
+#semaforo-verde{
+    width: 150px;
+    height: 150px;
+    background-color: #00DFA2;
+    border-radius: 50%;   
+}
+
+
+.amarillo{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: #F6FA70;
+}
+
+.encendido-amarillo{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: #F6FA70;
+    box-shadow: #f8ffcc 0px 0px 50px 20px;
+
+}
+
+
+
+.rojo{
+    width: 150px;
+    height: 150px;
+    background-color: #FF0060;
+    border-radius: 50%;
+}
+.encendido-rojo{
+    width: 150px;
+    height: 150px;
+    background-color: #FF0060;
+    border-radius: 50%;
+    box-shadow: #f8ffcc 0px 0px 50px 20px;
+}
+
+
+.encendido-verde{
+      box-shadow: #f8ffcc 0px 0px 50px 20px;
+      width: 150px;
+      height: 150px;
+      background-color: #00DFA2;
+      border-radius: 50%; 
+  }
+
+
+
