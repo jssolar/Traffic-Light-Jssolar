@@ -13,9 +13,9 @@ console.log(color)
     return(
         <header className="semaforo-contenedor">
             <div className="semaforo-luces">
-                <button   onClick = {() => botones('v')} className={color === 'v'?'encendido-verde': 'verde'}>{color}</button>
-                <button   onClick = {() => botones("a")}  className={color === 'a'?'encendido-amarillo': 'amarillo'}>{color}</button>
-                <button   onClick = {() => botones("r")} className={color ==='r'? 'encendido-rojo':'rojo'}>{color}</button>
+                <button   onClick = {() => botones('v')} className={color === 'v'?'encendido-verde': 'verde'}></button>
+                <button   onClick = {() => botones("a")}  className={color === 'a'?'encendido-amarillo': 'amarillo'}></button>
+                <button   onClick = {() => botones("r")} className={color ==='r'? 'encendido-rojo':'rojo'}></button>
             </div>
         </header>
     )
